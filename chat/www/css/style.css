@@ -1,0 +1,77 @@
+body {
+	background: url(../image/fon2.jpg);
+	font-size: 14pt;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	color: white;
+}
+
+form, textarea, input, button {
+	font-size: 14pt;
+	font-family: Georgia, 'Times New ,Roman', Times, serif;
+}
+
+.gl_block {
+	width: 600px;
+	margin: 20px auto;
+}
+
+.gl_block p{
+	margin: 5px 0;
+	padding: 0;
+}
+
+.pole {
+	
+}
+
+.pole input {
+	border-radius: 5px;
+	padding: 5px 0;
+	margin-left: 90px;
+}
+
+.pole textarea {
+	border-radius: 5px;
+}
+
+.post {
+	background: -moz-linear-gradient(#00BBD6, #EBFFFF);
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(#00BBD6), to(#EBFFFF));
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00BBD6', endColorstr='#EBFFFF');
+    padding: 10px 20px;
+    color: #333;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    border: 1px solid #666;
+    margin: 5px 240px;
+}
+
+.post:hover {
+	cursor: pointer;
+	background: #9ea5a7;
+}
+
+.kommentarii {
+	margin: 10px 0;
+}
+
+.info {
+	background: #afb1b16b;
+	border-radius: 5px;
+	border-bottom: 1px solid white;
+	padding: 5px 5px;
+}
+
+.info p{
+	display: block;
+	display: inline;
+	padding: 2px 20px 2px 0;
+}
+
+.komm_text p {
+	padding: 5px 5px;
+	background: #848b8c;
+	border-radius: 5px;
+	text-align: justify;
+} 
